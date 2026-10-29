@@ -171,7 +171,7 @@ add_filter(
 );
 
 /**
- * Two languages may use the same slug (/graviola/ and /en/graviola/). WordPress looks a
+ * Two languages may use the same slug (/produkt/ and /en/produkt/). WordPress looks a
  * page – or a post of any type that has parents – up by its path alone, so when a path is
  * ambiguous the one in the language of the request is picked here.
  */
@@ -233,8 +233,8 @@ add_filter(
 );
 
 /**
- * An address of one language asked for under the folder of another (/en/rjecnik/ where
- * the English page is /en/glossary/) is not found, and WordPress would guess its way to
+ * An address of one language asked for under the folder of another (/en/kontakt/ where
+ * the English page is /en/contact/) is not found, and WordPress would guess its way to
  * the page in the other language – the visitor silently changes language. When the page
  * has a version in the language of the request, that version is where the visitor goes.
  * This also makes paths a theme or an option holds in one language (/kontakt/) work in all.

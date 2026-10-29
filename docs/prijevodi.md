@@ -31,7 +31,7 @@ Tekstovi iz `.po/.mo` datoteka teme i dodataka ne prevode se ovdje – učitava 
 - **Stranice opcija** spremljene pod `options` vode se zasebno po jeziku (`options_en_…`). Jezik se bira u gornjoj traci admina, a obavijest na stranici kaže koji se jezik uređuje. Stranica opcija s vlastitim `post_id` zajednička je svim jezicima.
 - **Ista vrijednost u svim jezicima** – postavka svakog polja (sprema se uz polje i u `acf-json`). Pri spremanju objave vrijednost se upisuje u sve prijevode; unutar ponavljača kopira se redak po redak.
 - **Polja koja pokazuju na objave ili pojmove** (post object, relationship, page link, taxonomy) na javnoj strani vraćaju inačicu u trenutnom jeziku. U novom prijevodu takva se polja odmah prebacuju na inačice u jeziku prijevoda.
-- **Pravila prikaza grupe polja** koja imenuju stranicu („Stranica je Kontakt", „Roditelj stranice je Prostori") vrijede i za prijevode te stranice.
+- **Pravila prikaza grupe polja** koja imenuju stranicu („Stranica je Kontakt", „Roditelj stranice je Usluge") vrijede i za prijevode te stranice.
 
 ## Mediji
 

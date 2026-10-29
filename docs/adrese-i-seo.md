@@ -8,7 +8,7 @@ Pravila prepisivanja, kanonska preusmjeravanja, straničenje i feedovi rade u sv
 
 ## Slugovi
 
-- Isti slug smije postojati u različitim jezicima (`/graviola/` i `/en/graviola/`), i za stranice s hijerarhijom.
+- Isti slug smije postojati u različitim jezicima (`/produkt/` i `/en/produkt/`), i za stranice s hijerarhijom.
 - **Adresa u krivom jeziku** vodi na pravu inačicu: `/en/kontakt/` (hrvatski slug pod engleskom mapom) preusmjerava na `/en/contact/`, a upit u adresi (`?q=…`) se čuva. Isto za pojmove (`/en/kategorija/hrvatski-slug/`). Zato i putovi koje tema ili opcije drže samo u jednom jeziku rade u svima.
 - **Sadržaj koji se ne prevodi** isti je pod svakom mapom (`/pojam/x/` i `/en/pojam/x/`); kanonska adresa, `og:url` i adresa koju pamti Yoast uvijek su one zadanog jezika.
 

@@ -217,7 +217,7 @@ add_action( 'acf/save_post', 'langosh_acf_sync', 20 );
 
 /**
  * A field group shown on one page ("Page is equal to Kontakt", "Page parent is equal to
- * Prostori") is shown on the translations of that page as well, so one group serves all languages.
+ * Usluge") is shown on the translations of that page as well, so one group serves all languages.
  */
 add_filter(
 	'acf/location/rule_match',
