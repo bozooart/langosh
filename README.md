@@ -2,7 +2,7 @@
 
 Višejezičnost za WordPress u jednom dodatku: prijevodi stranica, objava, pojmova, izbornika i tekstova, ACF polja po jeziku te SEO oznake (`hreflang`, sitemap). Zamjenjuje WPML + WPML String Translation + WPML SEO na stranicama gdje je sadržaj u objavama, stranicama i ACF poljima.
 
-**Verzija 1.3.3** · WordPress 6.3+ · PHP 7.4+ · autor: BozooArt
+**Verzija 1.3.3** · WordPress 6.3+ · PHP 7.4+ · autor: BozooArt · licenca: [GPL v2 ili novija](LICENSE)
 
 ## Zašto Langosh
 
@@ -56,3 +56,7 @@ uninstall.php        brisanje dodatka: tablica i opcije (sadržaj ostaje)
 - Baze trajnih veza (`/kategorija/`, slug tipa sadržaja) iste su u svim jezicima.
 - Tekstovi iz `.po/.mo` datoteka tema i dodataka dolaze iz jezičnih paketa WordPressa (prema lokalu jezika), ne prevode se u Langoshu.
 - Nema strojnog prevođenja ni uređivača prijevoda „jedno uz drugo".
+
+## Licenca
+
+Langosh je slobodan softver pod licencom [GNU General Public License, verzija 2 ili novija](LICENSE) – istom kao WordPress. Smije se koristiti na bilo kojoj stranici (i komercijalnoj), mijenjati i dijeliti; izmijenjene inačice koje se dalje dijele moraju ostati pod istom licencom. Dodatak se daje bez ikakvog jamstva.
